@@ -1,0 +1,24 @@
+  body{
+    background-color: #A438C1;
+    background-image:url('1.jpg');
+  }
+  h2{
+    color: #F3F70E;
+  }
+  canvas{
+    position: absolute;
+    left:280px;
+    top:60px;
+    border: 5px double gray;
+  }
+
+  #vertex, #edge, #clear, #submit{
+    background:#A438C1;
+    color:#040304;
+    position: absolute;
+    top:550px;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  

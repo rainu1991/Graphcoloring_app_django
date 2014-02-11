@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Graph</title>
+{% load static %}
+<link rel='stylesheet' type='text/css' href="{% static 'decorate.css' %}">
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+</head>
+<body>
+<center><h2>Graph Coloring</h2></center>
+<canvas id="myCanvas" width="700" height="450" style="background-color: #ffffff; z-index: 0">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<br>
+<button id="vertex" title="Draw Vertex" style="left:420px;">Vertex</button>
+<button id="edge" title="Draw Edge" style="left:530px;" >Edge</button>
+<button id="clear" title="Crear the graph" style="left:650px;">Clear</button>
+<button id="submit" onclick="send()" title="Press to see Graph Coloring!" style="left:760px;">Submit</button>
+{% load static %}
+<script src= "{% static 'graphscript.js' %}"> </script>
+
+</body>
+</html>
